@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "Fieldline — AI Agency",
+      "hasCanvas": false,
+      "bodyTextLen": 6629,
+      "bodyTextHash": "0e8546c8a5ca1a9ef63e67c4bb0967503c644290f9d60c4815e6cdd816bf1416",
+      "bodyTextPrefix": "Skip to content Fieldline Practices Work Method Team Briefing St",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "Fieldline — AI Agency",
+      "hasCanvas": false,
+      "bodyTextLen": 6498,
+      "bodyTextHash": "0c33ae64ee91444f311ecb02b8fb6e9c89f7bcecd4c8c788c2a964236ab52722",
+      "bodyTextPrefix": "Skip to content Fieldline AI AGENCY · FDE + PERFORMANCE Field-re",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
