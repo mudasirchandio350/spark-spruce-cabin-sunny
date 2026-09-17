@@ -9,11 +9,11 @@ export function Practices() {
         <Reveal>
           <Eyebrow>02 — Practices</Eyebrow>
           <h2 className="mt-4 max-w-3xl font-display text-2xl tracking-[-0.03em] text-fg md:text-5xl">
-            Two teams. One field.
+            Two practices. One standard.
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
             Hire one practice, or both. The scoreboard is shared either way:
-            production systems that operators use, and media that pays for itself.
+            production systems that operators use, and growth that pays for itself.
           </p>
         </Reveal>
 
