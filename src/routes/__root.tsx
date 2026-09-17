@@ -3,18 +3,18 @@ import { AuthProvider } from "@/lib/auth/provider";
 import { PreviewHostBridge } from "@/components/preview-host-bridge";
 import appCss from "../styles.css?url";
 
-const APP_NAME = "Fieldline";
+const APP_NAME = "Mudasir Chandio";
 
 export const Route = createRootRoute({
   head: () => ({
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Fieldline — AI Agency" },
+      { title: "Mudasir Chandio — Fullstack Developer & SaaS Builder" },
       {
         name: "description",
         content:
-          "Fieldline is an AI agency of forward-deployed engineers and performance marketers. Production systems, not slide decks.",
+          "Mudasir Chandio is a fullstack web developer and SaaS builder specializing in production AI systems, scalable web applications, and field-ready products.",
       },
       { name: "theme-color", content: "#0c0d0c" },
     ],
