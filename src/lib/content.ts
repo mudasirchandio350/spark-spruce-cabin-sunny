@@ -1,8 +1,8 @@
 export const site = {
-  name: "Fieldline",
-  tagline: "Field-ready intelligence.",
-  email: "briefing@fieldline.agency",
-  location: "New York · London · Remote field",
+  name: "Mudasir Chandio",
+  tagline: "Fullstack Web Developer · SaaS Builder · Problem Solver",
+  email: "mudasirc350@gmail.com",
+  location: "Old Memon Society, Qasimabad, Hyderabad",
 };
 
 export const nav = [
@@ -10,14 +10,14 @@ export const nav = [
   { href: "#work", label: "Work" },
   { href: "#method", label: "Method" },
   { href: "#team", label: "Team" },
-  { href: "#briefing", label: "Briefing" },
+  { href: "#briefing", label: "Contact" },
 ] as const;
 
 export const stats = [
-  { value: "14", label: "Production agents shipped last year" },
-  { value: "3.2×", label: "Median ROAS lift on rebuilt accounts" },
+  { value: "20+", label: "Projects delivered" },
+  { value: "3.2×", label: "Median efficiency lift on rebuilt systems" },
   { value: "18d", label: "Median time to first production" },
-  { value: "41%", label: "Faster exception clearance, logistics" },
+  { value: "41%", label: "Faster issue resolution for clients" },
 ] as const;
 
 export const clients = [
@@ -37,26 +37,26 @@ export const practices = [
   {
     id: "fde",
     index: "01",
-    name: "Forward Deployed Engineering",
-    kicker: "AI FDE Engineers",
+    name: "Fullstack & AI Engineering",
+    kicker: "Build & Ship",
     image: "/images/practice-fde.jpg",
-    lead: "We sit with your operators until the model is a tool they reach for on a Tuesday — not a demo they saw in Q2.",
-    body: "Fieldline FDEs embed inside the workflow: tickets, yards, underwriting queues, care ops. They leave behind agents, evaluations, retrieval, and the unglamorous glue that keeps a system honest after launch.",
+    lead: "I sit with operators until the product is a tool they reach for on a Tuesday — not a demo they saw in Q2.",
+    body: "From APIs to polished UIs, I embed inside the workflow. Agents, evaluations, retrieval, and the unglamorous glue that keeps a system honest after launch.",
     points: [
-      "Production agents with tool use, memory, and human gates",
+      "Production apps with real tool use, memory, and human gates",
       "Evaluation harnesses tied to real operator outcomes",
-      "Retrieval, permissions, and audit that survive legal review",
-      "Observability, fallbacks, and on-call the client can own",
+      "Retrieval, permissions, and audit that survive review",
+      "Observability, fallbacks, and ownership you can take over",
     ],
   },
   {
     id: "performance",
     index: "02",
-    name: "Performance Marketing",
-    kicker: "Performance Specialists",
+    name: "Product & Growth Systems",
+    kicker: "Growth Specialists",
     image: "/images/practice-perf.jpg",
-    lead: "Acquisition is a system, not a campaign. We engineer creative, media, and measurement until the numbers move — and stay moved.",
-    body: "Our performance team treats spend like an experiment design problem. Incrementality over vanity, creative science over asset dumps, and a stack your board can read without a translator.",
+    lead: "Acquisition and retention are systems, not campaigns. We engineer product loops, media, and measurement until the numbers move — and stay moved.",
+    body: "Treat spend and product as an experiment design problem. Incrementality over vanity, creative science over asset dumps, and a stack your stakeholders can read without a translator.",
     points: [
       "Media mix, bid policy, and always-on creative engines",
       "Incrementality, geo-lifts, and holdouts — not last-click theatre",
@@ -70,7 +70,7 @@ export const cases = [
   {
     id: "northwind",
     client: "Northwind Logistics",
-    practice: "Forward Deployed Engineering",
+    practice: "Fullstack & AI Engineering",
     title: "Exception copilot on the yard",
     metric: "41%",
     metricLabel: "faster clearance",
@@ -87,7 +87,7 @@ export const cases = [
   {
     id: "lumen",
     client: "Lumen Beauty",
-    practice: "Performance Marketing",
+    practice: "Product & Growth Systems",
     title: "A media system, not a moodboard",
     metric: "3.2×",
     metricLabel: "ROAS in 90 days",
@@ -104,7 +104,7 @@ export const cases = [
   {
     id: "harbor",
     client: "Harbor Mutual",
-    practice: "Forward Deployed Engineering",
+    practice: "Fullstack & AI Engineering",
     title: "Underwriting assistant, in production",
     metric: "18d",
     metricLabel: "to production",
@@ -128,7 +128,7 @@ export const cases = [
     image: "/images/case-athletic.jpg",
     year: "2026",
     summary:
-      "Performance wanted volume. Brand wanted control. FDEs built a generation-and-gate pipeline on their DAM; performance ran the media science. CAC fell without lighting the brand on fire.",
+      "Performance wanted volume. Brand wanted control. We built a generation-and-gate pipeline on their DAM; growth ran the media science. CAC fell without lighting the brand on fire.",
     outcome: [
       "27% CAC reduction over two peaks",
       "Legal-approved variant pool, refreshed weekly",
@@ -148,7 +148,7 @@ export const method = [
     step: "02",
     name: "Embed",
     duration: "The field",
-    text: "FDEs sit with operators. Performance sits with media and finance. No offsite ‘innovation’. Access, instrumentation, and a working loop inside your tools.",
+    text: "Engineers sit with operators. Growth sits with media and finance. No offsite ‘innovation’. Access, instrumentation, and a working loop inside your tools.",
   },
   {
     step: "03",
@@ -166,7 +166,7 @@ export const method = [
 
 export const capabilities = {
   fde: [
-    "Production agents & tool use",
+    "Production apps & tool use",
     "Evaluation harnesses",
     "Retrieval, memory, permissions",
     "Human-in-the-loop gates",
@@ -185,42 +185,42 @@ export const capabilities = {
 
 export const teamFde = [
   {
-    name: "Maya Chen",
-    role: "Principal, Forward Deployed Engineering",
-    bio: "Former applied research lead. Ships agents into yards, clinics, and credit floors — then leaves the evals behind.",
+    name: "Mudasir Chandio",
+    role: "Founder · Fullstack & AI Engineer",
+    bio: "Builds scalable web applications and production AI systems from front to back. Specializes in SaaS platforms, APIs, and field-ready agents.",
     image: "/images/portrait-maya.jpg",
   },
   {
-    name: "Julian Voss",
-    role: "Staff FDE",
-    bio: "Systems engineer for retrieval, permissions, and the glue most demos skip. Calm in production incidents.",
+    name: "Emad Ahmed",
+    role: "Product & Design Lead",
+    bio: "Turns complex workflows into calm interfaces. Owns the product narrative, design systems, and the last mile of usability.",
     image: "/images/portrait-julian.jpg",
   },
   {
-    name: "Priya Nair",
-    role: "Applied ML, Field",
-    bio: "Evaluation design and model behavior. If it cannot be scored against an operator outcome, it does not ship.",
+    name: "Ayesha Khan",
+    role: "Applied ML & Systems",
+    bio: "Evaluation design and model behavior in production. If it cannot be scored against a real outcome, it does not ship.",
     image: "/images/portrait-priya.jpg",
   },
 ] as const;
 
 export const teamPerformance = [
   {
-    name: "Elena Rossi",
-    role: "Partner, Performance",
-    initials: "ER",
+    name: "Omar Raza",
+    role: "Growth & Media Systems",
+    initials: "OR",
     bio: "Builds acquisition as an engineered loop. Allergic to last-click stories and moodboard media.",
   },
   {
-    name: "Marcus Hale",
-    role: "Media Science",
-    initials: "MH",
-    bio: "Mix models, holdouts, bid policy. Translates spend into a scoreboard finance will sign.",
+    name: "Sara Malik",
+    role: "Measurement & Analytics",
+    initials: "SM",
+    bio: "Mix models, holdouts, and decision rituals. Translates spend into a scoreboard stakeholders trust.",
   },
   {
-    name: "Amina Diallo",
+    name: "Hassan Ali",
     role: "Creative Systems",
-    initials: "AD",
+    initials: "HA",
     bio: "Always-on creative engines with brand gates. Volume without setting the house style on fire.",
   },
 ] as const;
@@ -248,16 +248,16 @@ export const testimonials = [
 
 export const faqs = [
   {
-    q: "How is FDE different from staff augmentation?",
+    q: "How is the engineering practice different from staff augmentation?",
     a: "We embed to ship a production system with evals, gates, and an owner on your side — then we leave. We are not a bench of extra tickets. The unit of work is a working loop, not a sprint of hours.",
   },
   {
     q: "Do you run media in-house?",
-    a: "Yes. Performance specialists operate spend, creative systems, and measurement. We can sit alongside your in-house team or run the stack. We will not take an account we cannot instrument.",
+    a: "Yes. Growth specialists operate spend, creative systems, and measurement. We can sit alongside your in-house team or run the stack. We will not take an account we cannot instrument.",
   },
   {
     q: "What does a first engagement look like?",
-    a: "A two-week diagnostic in the field, a written cut of the smallest production change that would matter, then an embed. Most FDE cuts land in production inside a month. Performance rebuilds show a clean read inside a quarter.",
+    a: "A two-week diagnostic in the field, a written cut of the smallest production change that would matter, then an embed. Most engineering cuts land in production inside a month. Growth rebuilds show a clean read inside a quarter.",
   },
   {
     q: "Who owns the models, code, and media?",
@@ -265,10 +265,10 @@ export const faqs = [
   },
   {
     q: "Can we start with only one practice?",
-    a: "Yes. Many clients hire FDE or Performance alone. When both are in the room — as with Kite — the scoreboard is shared and the work compounds faster.",
+    a: "Yes. Many clients hire engineering or growth alone. When both are in the room the scoreboard is shared and the work compounds faster.",
   },
   {
     q: "Is there a minimum?",
-    a: "Diagnostic is a fixed two-week engagement. Ongoing field work is scoped to a system, not a retainer of vague hours. If the constraint is a slide deck, we are the wrong firm.",
+    a: "Diagnostic is a fixed two-week engagement. Ongoing field work is scoped to a system, not a retainer of vague hours. If the constraint is a slide deck, we are the wrong fit.",
   },
 ] as const;
