@@ -8,10 +8,10 @@ export function Team() {
         <Reveal>
           <Eyebrow>05 — The field team</Eyebrow>
           <h2 className="mt-4 max-w-3xl font-display text-2xl tracking-[-0.03em] md:text-5xl">
-            Engineers in the room. Marketers on the numbers.
+            Engineers in the room. Operators on the numbers.
           </h2>
           <p className="mt-4 max-w-2xl text-muted">
-            A small firm on purpose. Principals stay on the engagement — no bait-and-switch
+            A small practice on purpose. Principals stay on the engagement — no bait-and-switch
             from a pitch team to a junior bench.
           </p>
         </Reveal>
@@ -38,7 +38,7 @@ export function Team() {
         </div>
 
         <div className="mt-16">
-          <Eyebrow>Performance practice</Eyebrow>
+          <Eyebrow>Growth practice</Eyebrow>
           <div className="mt-6 grid gap-px overflow-hidden rounded-2xl bg-line md:grid-cols-3">
             {teamPerformance.map((person) => (
               <article key={person.name} className="bg-bg-elevated p-7 md:p-8">
