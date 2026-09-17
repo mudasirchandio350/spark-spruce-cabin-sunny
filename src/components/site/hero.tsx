@@ -86,7 +86,7 @@ export function Hero() {
           variants={variants}
           className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted"
         >
-          AI Agency · FDE + Performance
+          Fullstack · SaaS · AI Systems
         </motion.p>
         <motion.h1
           custom={1}
@@ -106,8 +106,8 @@ export function Hero() {
           variants={variants}
           className="mt-6 max-w-xl text-base leading-normal text-muted md:text-lg"
         >
-          Two practices, one standard. Forward-deployed engineers who ship production AI.
-          Performance marketers who treat acquisition as a system.
+          I build scalable web applications and production AI systems from front to back.
+          SaaS platforms, APIs, and tools operators actually use on a Tuesday.
         </motion.p>
         <motion.div
           custom={3}
