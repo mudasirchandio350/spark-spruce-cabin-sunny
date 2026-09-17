@@ -37,7 +37,7 @@ export function Nav() {
               open ? "text-paper-ink" : "text-fg",
             )}
           >
-            Fieldline
+            Mudasir Chandio
           </a>
           <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
             {nav.map((item) => (
