@@ -45,8 +45,8 @@ function RodField({ count, animated }: { count: number; animated: boolean }) {
   const mesh = useRef<THREE.InstancedMesh>(null);
   const dummy = useMemo(() => new THREE.Object3D(), []);
   const color = useMemo(() => new THREE.Color(), []);
-  const base = useMemo(() => new THREE.Color("#9aa3a0"), []);
-  const peak = useMemo(() => new THREE.Color("#edeae3"), []);
+  const base = useMemo(() => new THREE.Color("#2a9d8f"), []);
+  const peak = useMemo(() => new THREE.Color("#2dd4bf"), []);
 
   useEffect(() => {
     const inst = mesh.current;
@@ -104,7 +104,7 @@ function Scene({ count, animated }: { count: number; animated: boolean }) {
       <RodField count={count} animated={animated} />
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}>
         <ringGeometry args={[3.15, 3.19, 128]} />
-        <meshBasicMaterial color="#c5c9c0" transparent opacity={0.28} />
+        <meshBasicMaterial color="#2dd4bf" transparent opacity={0.32} />
       </mesh>
     </group>
   );
@@ -141,8 +141,8 @@ export function HeroField() {
         <fog attach="fog" args={["#0c0d0c", 7, 16]} />
         <ambientLight intensity={0.22} />
         <directionalLight position={[5, 9, 3]} intensity={1.15} color="#edeae3" />
-        <directionalLight position={[-6, 2, -3]} intensity={0.35} color="#9aa3a0" />
-        <spotLight position={[0, 10, 2]} intensity={0.55} angle={0.5} penumbra={0.8} color="#c5c9c0" />
+        <directionalLight position={[-6, 2, -3]} intensity={0.45} color="#2dd4bf" />
+        <spotLight position={[0, 10, 2]} intensity={0.55} angle={0.5} penumbra={0.8} color="#2dd4bf" />
         <Scene count={count} animated={animated} />
       </Canvas>
     </div>
