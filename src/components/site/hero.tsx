@@ -72,22 +72,35 @@ export function Hero() {
       ref={root}
       className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden bg-bg"
     >
+      {/* Cinematic background image — sits below the 3D field */}
+      <div className="pointer-events-none absolute inset-0 z-[-1]">
+        <img
+          src="/images/hero-bg.jpg"
+          alt=""
+          className="h-full w-full object-cover object-center opacity-40"
+          fetchPriority="high"
+        />
+        {/* Dark vignette over the bg image */}
+        <div className="absolute inset-0 bg-gradient-to-br from-bg/90 via-bg/60 to-bg/30" />
+      </div>
+
       <div className="pointer-events-none absolute inset-0 md:pointer-events-auto md:left-[38%]">
         {Field ? <Field /> : <HeroFallback />}
       </div>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-bg via-bg/88 to-bg/20 md:via-bg/80" />
-      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-bg to-transparent" />
+      <div className="pointer-events-none absolute inset-0 bg-gradient-to-r from-bg via-bg/82 to-bg/10 md:via-bg/75" />
+      <div className="pointer-events-none absolute inset-x-0 bottom-0 h-48 bg-gradient-to-t from-bg to-transparent" />
 
       <div className="relative z-10 mx-auto flex w-full max-w-[1400px] flex-1 flex-col justify-end px-5 pb-10 pt-28 md:px-10 lg:px-16 lg:pb-14">
-        <motion.p
+        <motion.div
           custom={0}
           initial="hidden"
           animate="show"
           variants={variants}
-          className="font-mono text-[11px] uppercase tracking-[0.18em] text-muted"
+          className="inline-flex items-center gap-2.5 font-mono text-[11px] uppercase tracking-[0.18em] text-muted"
         >
-          Fullstack · SaaS · AI Systems
-        </motion.p>
+          <span className="inline-block size-1.5 rounded-full bg-primary shadow-[0_0_8px_var(--color-primary)] animate-pulse" />
+          <span>Mudasir Chandio · Fullstack & AI Studio</span>
+        </motion.div>
         <motion.h1
           custom={1}
           initial="hidden"

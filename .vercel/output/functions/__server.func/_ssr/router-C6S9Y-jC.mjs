@@ -4,8 +4,8 @@ import { c as require_jsx_runtime } from "../_libs/@radix-ui/react-accordion+[..
 import { n as TriangleAlert } from "../_libs/lucide-react.mjs";
 import { a as object, i as number, o as string, r as literal, s as union } from "../_libs/zod.mjs";
 import { _ as useRouter, f as createRouter, g as createRootRoute, h as createFileRoute, l as Scripts, m as lazyRouteComponent, p as Outlet, u as HeadContent } from "../_libs/@tanstack/react-router+[...].mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-CX1Nxiaj.js
-var router_CX1Nxiaj_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
+//#region node_modules/.nitro/vite/services/ssr/assets/router-C6S9Y-jC.js
+var router_C6S9Y_jC_exports = /* @__PURE__ */ __exportAll({ getRouter: () => getRouter });
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var FALLBACK_MESSAGE = "An unexpected error occurred. Try reloading the page.";
@@ -299,7 +299,7 @@ function PreviewHostBridge() {
 	}, [router]);
 	return null;
 }
-var styles_default = "/assets/styles-DlUWUxWc.css";
+var styles_default = "/assets/styles-CB61eRxS.css";
 var Route$1 = createRootRoute({
 	head: () => ({
 		meta: [
@@ -308,10 +308,10 @@ var Route$1 = createRootRoute({
 				name: "viewport",
 				content: "width=device-width, initial-scale=1"
 			},
-			{ title: "Fieldline — AI Agency" },
+			{ title: "Mudasir Chandio — Fullstack Developer & SaaS Builder" },
 			{
 				name: "description",
-				content: "Fieldline is an AI agency of forward-deployed engineers and performance marketers. Production systems, not slide decks."
+				content: "Mudasir Chandio is a fullstack web developer and SaaS builder specializing in production AI systems, scalable web applications, and field-ready products."
 			},
 			{
 				name: "theme-color",
@@ -349,7 +349,7 @@ var Route$1 = createRootRoute({
 		] })]
 	})
 });
-var $$splitComponentImporter = () => import("./routes-BpXs0u8N.mjs").then((n) => n.t);
+var $$splitComponentImporter = () => import("./routes-4t8EXFkM.mjs").then((n) => n.t);
 var rootRouteChildren = { IndexRoute: createFileRoute("/")({ component: lazyRouteComponent($$splitComponentImporter, "component") }).update({
 	id: "/",
 	path: "/",
@@ -363,4 +363,4 @@ function getRouter() {
 	});
 }
 //#endregion
-export { getRouter, router_CX1Nxiaj_exports as t };
+export { getRouter, router_C6S9Y_jC_exports as t };

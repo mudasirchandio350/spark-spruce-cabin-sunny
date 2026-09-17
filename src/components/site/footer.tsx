@@ -1,3 +1,4 @@
+import { Logo } from "@/components/site/logo";
 import { nav, site } from "@/lib/content";
 
 export function Footer() {
@@ -5,8 +6,8 @@ export function Footer() {
     <footer className="border-t border-line bg-bg pb-10">
       <div className="mx-auto flex w-full max-w-[1400px] flex-col gap-10 px-5 py-14 md:px-10 lg:flex-row lg:items-end lg:justify-between lg:px-16">
         <div>
-          <p className="font-display text-4xl tracking-tight md:text-6xl">Mudasir Chandio</p>
-          <p className="mt-3 max-w-sm text-sm text-muted">{site.tagline}</p>
+          <Logo size="lg" />
+          <p className="mt-4 max-w-sm text-sm text-muted">{site.tagline}</p>
         </div>
         <div className="flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted">
           {nav.map((item) => (

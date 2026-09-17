@@ -45,8 +45,8 @@ function RodField({ count, animated }: { count: number; animated: boolean }) {
   const mesh = useRef<THREE.InstancedMesh>(null);
   const dummy = useMemo(() => new THREE.Object3D(), []);
   const color = useMemo(() => new THREE.Color(), []);
-  const base = useMemo(() => new THREE.Color("#2a9d8f"), []);
-  const peak = useMemo(() => new THREE.Color("#2dd4bf"), []);
+  const base = useMemo(() => new THREE.Color("#6b1426"), []);
+  const peak = useMemo(() => new THREE.Color("#ff7575"), []);
 
   useEffect(() => {
     const inst = mesh.current;
@@ -74,8 +74,44 @@ function RodField({ count, animated }: { count: number; animated: boolean }) {
   return (
     <instancedMesh ref={mesh} args={[undefined, undefined, count * count]}>
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial metalness={0.72} roughness={0.28} />
+      <meshStandardMaterial metalness={0.78} roughness={0.22} />
     </instancedMesh>
+  );
+}
+
+function ParticleDust({ count = 48 }: { count?: number }) {
+  const points = useRef<THREE.Points>(null);
+  const [positions] = useState(() => {
+    const pos = new Float32Array(count * 3);
+    for (let i = 0; i < count; i++) {
+      pos[i * 3] = (Math.random() - 0.5) * 11;
+      pos[i * 3 + 1] = Math.random() * 3.5 + 0.1;
+      pos[i * 3 + 2] = (Math.random() - 0.5) * 11;
+    }
+    return pos;
+  });
+
+  useFrame((state) => {
+    if (!points.current) return;
+    points.current.rotation.y = state.clock.elapsedTime * 0.05;
+  });
+
+  return (
+    <points ref={points}>
+      <bufferGeometry>
+        <bufferAttribute
+          attach="attributes-position"
+          args={[positions, 3]}
+        />
+      </bufferGeometry>
+      <pointsMaterial
+        size={0.055}
+        color="#ff8a8a"
+        transparent
+        opacity={0.6}
+        blending={THREE.AdditiveBlending}
+      />
+    </points>
   );
 }
 
@@ -102,9 +138,16 @@ function Scene({ count, animated }: { count: number; animated: boolean }) {
   return (
     <group ref={group}>
       <RodField count={count} animated={animated} />
+      <ParticleDust count={count > 20 ? 56 : 28} />
+      {/* Primary inner orbital ring */}
       <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.01, 0]}>
-        <ringGeometry args={[3.15, 3.19, 128]} />
-        <meshBasicMaterial color="#2dd4bf" transparent opacity={0.32} />
+        <ringGeometry args={[3.15, 3.2, 128]} />
+        <meshBasicMaterial color="#ff6b6b" transparent opacity={0.42} />
+      </mesh>
+      {/* Subtle outer harmonic ring */}
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, 0.005, 0]}>
+        <ringGeometry args={[4.4, 4.43, 128]} />
+        <meshBasicMaterial color="#ff6b6b" transparent opacity={0.2} />
       </mesh>
     </group>
   );
@@ -139,10 +182,10 @@ export function HeroField() {
       >
         <color attach="background" args={["#0c0d0c"]} />
         <fog attach="fog" args={["#0c0d0c", 7, 16]} />
-        <ambientLight intensity={0.22} />
-        <directionalLight position={[5, 9, 3]} intensity={1.15} color="#edeae3" />
-        <directionalLight position={[-6, 2, -3]} intensity={0.45} color="#2dd4bf" />
-        <spotLight position={[0, 10, 2]} intensity={0.55} angle={0.5} penumbra={0.8} color="#2dd4bf" />
+        <ambientLight intensity={0.25} />
+        <directionalLight position={[5, 9, 3]} intensity={1.1} color="#edeae3" />
+        <directionalLight position={[-6, 2, -3]} intensity={0.65} color="#ff7b7b" />
+        <spotLight position={[0, 10, 2]} intensity={0.65} angle={0.5} penumbra={0.8} color="#ff5252" />
         <Scene count={count} animated={animated} />
       </Canvas>
     </div>

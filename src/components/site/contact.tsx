@@ -116,10 +116,10 @@ export function Contact() {
                     <label
                       key={p.id}
                       className={cn(
-                        "flex min-h-11 cursor-pointer items-center rounded-md px-4 text-sm transition-[background-color,box-shadow] duration-150",
+                        "flex min-h-11 cursor-pointer items-center rounded-md px-4 text-sm transition-all duration-150",
                         selected
-                          ? "bg-accent text-accent-fg"
-                          : "bg-bg text-muted ring-1 ring-fg/10 hover:text-fg",
+                          ? "bg-primary text-primary-fg font-medium shadow-[0_2px_12px_rgba(255,107,107,0.3)] ring-1 ring-white/20"
+                          : "bg-bg text-muted ring-1 ring-fg/10 hover:text-fg hover:ring-primary/40",
                       )}
                     >
                       <input

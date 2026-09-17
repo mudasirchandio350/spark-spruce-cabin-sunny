@@ -10,7 +10,7 @@ import { i as useMotionValueEvent, n as useSpring, o as AnimatePresence, r as us
 import { t as motion } from "../_libs/motion.mjs";
 import { t as ScrollTrigger } from "../_libs/gsap.mjs";
 import { t as Lenis } from "../_libs/lenis.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-BpXs0u8N.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-4t8EXFkM.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var __defProp = Object.defineProperty;
@@ -25,10 +25,10 @@ var __exportAll = (all, no_symbols) => {
 };
 var heroScroll = { current: 0 };
 var site = {
-	name: "Fieldline",
-	tagline: "Field-ready intelligence.",
-	email: "briefing@fieldline.agency",
-	location: "New York · London · Remote field"
+	name: "Mudasir Chandio",
+	tagline: "Fullstack Web Developer · SaaS Builder · Problem Solver",
+	email: "mudasirc350@gmail.com",
+	location: "Old Memon Society Qasimabad Hyderabad"
 };
 var nav = [
 	{
@@ -49,17 +49,17 @@ var nav = [
 	},
 	{
 		href: "#briefing",
-		label: "Briefing"
+		label: "Contact"
 	}
 ];
 var stats = [
 	{
-		value: "14",
-		label: "Production agents shipped last year"
+		value: "20+",
+		label: "Projects delivered"
 	},
 	{
 		value: "3.2×",
-		label: "Median ROAS lift on rebuilt accounts"
+		label: "Median efficiency lift on rebuilt systems"
 	},
 	{
 		value: "18d",
@@ -67,7 +67,7 @@ var stats = [
 	},
 	{
 		value: "41%",
-		label: "Faster exception clearance, logistics"
+		label: "Faster issue resolution for clients"
 	}
 ];
 var clients = [
@@ -85,25 +85,25 @@ var clients = [
 var practices$1 = [{
 	id: "fde",
 	index: "01",
-	name: "Forward Deployed Engineering",
-	kicker: "AI FDE Engineers",
+	name: "Fullstack & AI Engineering",
+	kicker: "Build & Ship",
 	image: "/images/practice-fde.jpg",
-	lead: "We sit with your operators until the model is a tool they reach for on a Tuesday — not a demo they saw in Q2.",
-	body: "Fieldline FDEs embed inside the workflow: tickets, yards, underwriting queues, care ops. They leave behind agents, evaluations, retrieval, and the unglamorous glue that keeps a system honest after launch.",
+	lead: "I sit with operators until the product is a tool they reach for on a Tuesday — not a demo they saw in Q2.",
+	body: "From APIs to polished UIs, I embed inside the workflow. Agents, evaluations, retrieval, and the unglamorous glue that keeps a system honest after launch.",
 	points: [
-		"Production agents with tool use, memory, and human gates",
+		"Production apps with real tool use, memory, and human gates",
 		"Evaluation harnesses tied to real operator outcomes",
-		"Retrieval, permissions, and audit that survive legal review",
-		"Observability, fallbacks, and on-call the client can own"
+		"Retrieval, permissions, and audit that survive review",
+		"Observability, fallbacks, and ownership you can take over"
 	]
 }, {
 	id: "performance",
 	index: "02",
-	name: "Performance Marketing",
-	kicker: "Performance Specialists",
+	name: "Product & Growth Systems",
+	kicker: "Growth Specialists",
 	image: "/images/practice-perf.jpg",
-	lead: "Acquisition is a system, not a campaign. We engineer creative, media, and measurement until the numbers move — and stay moved.",
-	body: "Our performance team treats spend like an experiment design problem. Incrementality over vanity, creative science over asset dumps, and a stack your board can read without a translator.",
+	lead: "Acquisition and retention are systems, not campaigns. We engineer product loops, media, and measurement until the numbers move — and stay moved.",
+	body: "Treat spend and product as an experiment design problem. Incrementality over vanity, creative science over asset dumps, and a stack your stakeholders can read without a translator.",
 	points: [
 		"Media mix, bid policy, and always-on creative engines",
 		"Incrementality, geo-lifts, and holdouts — not last-click theatre",
@@ -115,7 +115,7 @@ var cases = [
 	{
 		id: "northwind",
 		client: "Northwind Logistics",
-		practice: "Forward Deployed Engineering",
+		practice: "Fullstack & AI Engineering",
 		title: "Exception copilot on the yard",
 		metric: "41%",
 		metricLabel: "faster clearance",
@@ -131,7 +131,7 @@ var cases = [
 	{
 		id: "lumen",
 		client: "Lumen Beauty",
-		practice: "Performance Marketing",
+		practice: "Product & Growth Systems",
 		title: "A media system, not a moodboard",
 		metric: "3.2×",
 		metricLabel: "ROAS in 90 days",
@@ -147,7 +147,7 @@ var cases = [
 	{
 		id: "harbor",
 		client: "Harbor Mutual",
-		practice: "Forward Deployed Engineering",
+		practice: "Fullstack & AI Engineering",
 		title: "Underwriting assistant, in production",
 		metric: "18d",
 		metricLabel: "to production",
@@ -169,7 +169,7 @@ var cases = [
 		metricLabel: "CAC",
 		image: "/images/case-athletic.jpg",
 		year: "2026",
-		summary: "Performance wanted volume. Brand wanted control. FDEs built a generation-and-gate pipeline on their DAM; performance ran the media science. CAC fell without lighting the brand on fire.",
+		summary: "Performance wanted volume. Brand wanted control. We built a generation-and-gate pipeline on their DAM; growth ran the media science. CAC fell without lighting the brand on fire.",
 		outcome: [
 			"27% CAC reduction over two peaks",
 			"Legal-approved variant pool, refreshed weekly",
@@ -188,7 +188,7 @@ var method = [
 		step: "02",
 		name: "Embed",
 		duration: "The field",
-		text: "FDEs sit with operators. Performance sits with media and finance. No offsite ‘innovation’. Access, instrumentation, and a working loop inside your tools."
+		text: "Engineers sit with operators. Growth sits with media and finance. No offsite ‘innovation’. Access, instrumentation, and a working loop inside your tools."
 	},
 	{
 		step: "03",
@@ -205,7 +205,7 @@ var method = [
 ];
 var capabilities = {
 	fde: [
-		"Production agents & tool use",
+		"Production apps & tool use",
 		"Evaluation harnesses",
 		"Retrieval, memory, permissions",
 		"Human-in-the-loop gates",
@@ -223,42 +223,48 @@ var capabilities = {
 };
 var teamFde = [
 	{
-		name: "Maya Chen",
-		role: "Principal, Forward Deployed Engineering",
-		bio: "Former applied research lead. Ships agents into yards, clinics, and credit floors — then leaves the evals behind.",
+		name: "Mudasir Chandio",
+		role: "Founder · Principal Fullstack & AI Systems Architect",
+		bio: "Architects scalable fullstack web applications, SaaS platforms, and production AI agents. Bridges high-throughput infrastructure with intuitive, human-centered interfaces.",
 		image: "/images/portrait-maya.jpg"
 	},
 	{
-		name: "Julian Voss",
-		role: "Staff FDE",
-		bio: "Systems engineer for retrieval, permissions, and the glue most demos skip. Calm in production incidents.",
+		name: "Emad Ahmed",
+		role: "Co-Founder · Product Design & UI/UX Director",
+		bio: "Transforms convoluted operational workflows into calm, tactile design systems. Commands micro-interactions, typographic rhythm, and the final mile of product craft.",
 		image: "/images/portrait-julian.jpg"
 	},
 	{
-		name: "Priya Nair",
-		role: "Applied ML, Field",
-		bio: "Evaluation design and model behavior. If it cannot be scored against an operator outcome, it does not ship.",
+		name: "Zoya Qureshi",
+		role: "Lead AI Research & Agentic Systems",
+		bio: "Directs evaluation frameworks, contextual memory models, and deterministic tool-calling workflows. If an agent cannot reliably prove its accuracy, it does not deploy.",
 		image: "/images/portrait-priya.jpg"
 	}
 ];
 var teamPerformance = [
 	{
-		name: "Elena Rossi",
-		role: "Partner, Performance",
-		initials: "ER",
-		bio: "Builds acquisition as an engineered loop. Allergic to last-click stories and moodboard media."
+		name: "Tariq Farooq",
+		role: "Distributed Systems & Cloud Architect",
+		initials: "TF",
+		bio: "Engineers zero-downtime microservices, event-driven streaming, and fault-tolerant Postgres backends built to survive real load on a Tuesday."
 	},
 	{
-		name: "Marcus Hale",
-		role: "Media Science",
-		initials: "MH",
-		bio: "Mix models, holdouts, bid policy. Translates spend into a scoreboard finance will sign."
+		name: "Samir Varma",
+		role: "Growth & Quantitative Systems Lead",
+		initials: "SV",
+		bio: "Builds customer acquisition as an engineered statistical loop. Focuses on incrementality, holdout science, and financial attribution that CFOs endorse."
 	},
 	{
-		name: "Amina Diallo",
-		role: "Creative Systems",
-		initials: "AD",
-		bio: "Always-on creative engines with brand gates. Volume without setting the house style on fire."
+		name: "Ayla Noor",
+		role: "Creative Technologist & 3D Systems",
+		initials: "AN",
+		bio: "Designs WebGL shaders, kinetic physics, and interactive 3D spatial experiences. Fuses real-time rendering with accessible web engineering."
+	},
+	{
+		name: "Danial Raza",
+		role: "High-Assurance & Platform Security",
+		initials: "DR",
+		bio: "Audits permission boundaries, cryptographic flows, and zero-trust data access. Protects autonomous agent systems in hostile environments."
 	}
 ];
 var testimonials = [
@@ -280,16 +286,16 @@ var testimonials = [
 ];
 var faqs = [
 	{
-		q: "How is FDE different from staff augmentation?",
+		q: "How is the engineering practice different from staff augmentation?",
 		a: "We embed to ship a production system with evals, gates, and an owner on your side — then we leave. We are not a bench of extra tickets. The unit of work is a working loop, not a sprint of hours."
 	},
 	{
 		q: "Do you run media in-house?",
-		a: "Yes. Performance specialists operate spend, creative systems, and measurement. We can sit alongside your in-house team or run the stack. We will not take an account we cannot instrument."
+		a: "Yes. Growth specialists operate spend, creative systems, and measurement. We can sit alongside your in-house team or run the stack. We will not take an account we cannot instrument."
 	},
 	{
 		q: "What does a first engagement look like?",
-		a: "A two-week diagnostic in the field, a written cut of the smallest production change that would matter, then an embed. Most FDE cuts land in production inside a month. Performance rebuilds show a clean read inside a quarter."
+		a: "A two-week diagnostic in the field, a written cut of the smallest production change that would matter, then an embed. Most engineering cuts land in production inside a month. Growth rebuilds show a clean read inside a quarter."
 	},
 	{
 		q: "Who owns the models, code, and media?",
@@ -297,11 +303,11 @@ var faqs = [
 	},
 	{
 		q: "Can we start with only one practice?",
-		a: "Yes. Many clients hire FDE or Performance alone. When both are in the room — as with Kite — the scoreboard is shared and the work compounds faster."
+		a: "Yes. Many clients hire engineering or growth alone. When both are in the room the scoreboard is shared and the work compounds faster."
 	},
 	{
 		q: "Is there a minimum?",
-		a: "Diagnostic is a fixed two-week engagement. Ongoing field work is scoped to a system, not a retainer of vague hours. If the constraint is a slide deck, we are the wrong firm."
+		a: "Diagnostic is a fixed two-week engagement. Ongoing field work is scoped to a system, not a retainer of vague hours. If the constraint is a slide deck, we are the wrong fit."
 	}
 ];
 function Clients() {
@@ -324,13 +330,13 @@ function Clients() {
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
-var buttonVariants = cva("inline-flex items-center justify-center gap-2 font-sans font-medium tracking-tight transition-[scale,background-color,color,opacity,box-shadow] duration-150 ease-out active:not-disabled:scale-[0.96] disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent", {
+var buttonVariants = cva("inline-flex items-center justify-center gap-2 font-sans font-medium tracking-tight transition-[transform,background-color,color,opacity,box-shadow,border-color] duration-200 ease-out active:not-disabled:scale-[0.96] disabled:pointer-events-none disabled:opacity-50 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary", {
 	variants: {
 		variant: {
-			primary: "bg-accent text-accent-fg hover:opacity-90",
-			secondary: "bg-transparent text-fg ring-1 ring-fg/15 hover:bg-bg-subtle",
-			inverted: "bg-paper-ink text-paper hover:opacity-90",
-			ghost: "bg-transparent text-fg hover:bg-fg/5"
+			primary: "bg-primary text-primary-fg font-semibold shadow-[0_2px_14px_rgba(255,107,107,0.28)] hover:bg-primary-hover hover:shadow-[0_4px_24px_rgba(255,107,107,0.45)] ring-1 ring-white/25 active:shadow-none",
+			secondary: "bg-bg-elevated/80 text-fg ring-1 ring-fg/15 hover:bg-bg-subtle hover:ring-primary/40 hover:text-white backdrop-blur-xs",
+			inverted: "bg-paper-ink text-paper hover:bg-paper-ink/90 shadow-sm",
+			ghost: "bg-transparent text-fg hover:bg-primary/10 hover:text-primary"
 		},
 		size: {
 			default: "h-11 rounded-md px-5 text-sm",
@@ -423,11 +429,11 @@ var schema = object({
 var practices = [
 	{
 		id: "fde",
-		label: "Forward Deployed Engineering"
+		label: "Fullstack & AI Engineering"
 	},
 	{
 		id: "performance",
-		label: "Performance Marketing"
+		label: "Product & Growth Systems"
 	},
 	{
 		id: "both",
@@ -447,14 +453,14 @@ function Contact() {
 		}
 	});
 	const onSubmit = (values) => {
-		const id = `FL-${Date.now().toString(36).toUpperCase()}`;
+		const id = `MC-${Date.now().toString(36).toUpperCase()}`;
 		const payload = {
 			...values,
 			id,
 			at: (/* @__PURE__ */ new Date()).toISOString()
 		};
-		const prev = JSON.parse(localStorage.getItem("fieldline-briefings") ?? "[]");
-		localStorage.setItem("fieldline-briefings", JSON.stringify([payload, ...prev].slice(0, 20)));
+		const prev = JSON.parse(localStorage.getItem("mudasir-briefings") ?? "[]");
+		localStorage.setItem("mudasir-briefings", JSON.stringify([payload, ...prev].slice(0, 20)));
 		setRef(id);
 		form.reset();
 	};
@@ -564,7 +570,7 @@ function Contact() {
 							children: practices.map((p) => {
 								const selected = form.watch("practice") === p.id;
 								return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("label", {
-									className: cn("flex min-h-11 cursor-pointer items-center rounded-md px-4 text-sm transition-[background-color,box-shadow] duration-150", selected ? "bg-accent text-accent-fg" : "bg-bg text-muted ring-1 ring-fg/10 hover:text-fg"),
+									className: cn("flex min-h-11 cursor-pointer items-center rounded-md px-4 text-sm transition-all duration-150", selected ? "bg-primary text-primary-fg font-medium shadow-[0_2px_12px_rgba(255,107,107,0.3)] ring-1 ring-white/20" : "bg-bg text-muted ring-1 ring-fg/10 hover:text-fg hover:ring-primary/40"),
 									children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("input", {
 										type: "radio",
 										className: "sr-only",
@@ -676,17 +682,135 @@ function Faq() {
 		})
 	});
 }
+function Logo({ className, showText = true, size = "md", tone = "dark" }) {
+	const iconSizes = {
+		sm: "size-7",
+		md: "size-9",
+		lg: "size-11"
+	};
+	const textSizes = {
+		sm: "text-lg",
+		md: "text-xl",
+		lg: "text-2xl"
+	};
+	const isLight = tone === "light";
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+		className: cn("inline-flex items-center gap-3 select-none group", className),
+		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+			className: cn("relative flex items-center justify-center rounded-xl transition-transform duration-200 group-hover:scale-105", iconSizes[size], isLight ? "bg-paper-line/50 text-paper-ink shadow-[0_1px_4px_rgba(0,0,0,0.08)] ring-1 ring-paper-ink/10" : "bg-bg-elevated text-fg shadow-[0_2px_12px_rgba(255,107,107,0.12)] ring-1 ring-white/10 group-hover:ring-primary/40"),
+			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("svg", {
+				viewBox: "0 0 40 40",
+				fill: "none",
+				xmlns: "http://www.w3.org/2000/svg",
+				className: "size-full p-1.5",
+				"aria-hidden": "true",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("defs", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("linearGradient", {
+							id: "mcGrad",
+							x1: "4",
+							y1: "4",
+							x2: "36",
+							y2: "36",
+							gradientUnits: "userSpaceOnUse",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("stop", { stopColor: "#ff7b7b" }),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("stop", {
+									offset: "0.5",
+									stopColor: "#ff5252"
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("stop", {
+									offset: "1",
+									stopColor: "#f43f5e"
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("linearGradient", {
+							id: "mcGlow",
+							x1: "0",
+							y1: "0",
+							x2: "40",
+							y2: "40",
+							gradientUnits: "userSpaceOnUse",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("stop", {
+								stopColor: "#ff8a8a",
+								stopOpacity: "0.8"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("stop", {
+								offset: "1",
+								stopColor: "#e11d48",
+								stopOpacity: "0.2"
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("filter", {
+							id: "subtleGlow",
+							x: "-20%",
+							y: "-20%",
+							width: "140%",
+							height: "140%",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("feGaussianBlur", {
+								stdDeviation: "1.5",
+								result: "blur"
+							}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("feComposite", {
+								in: "SourceGraphic",
+								in2: "blur",
+								operator: "over"
+							})]
+						})
+					] }),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("rect", {
+						x: "3",
+						y: "3",
+						width: "34",
+						height: "34",
+						rx: "8",
+						fill: isLight ? "#f5f3ef" : "#141514",
+						stroke: "url(#mcGlow)",
+						strokeWidth: "1.2",
+						strokeOpacity: "0.5"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M10 29V12L16.5 21.5L23 12V29",
+						stroke: "url(#mcGrad)",
+						strokeWidth: "2.8",
+						strokeLinecap: "round",
+						strokeLinejoin: "round"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", {
+						d: "M31 14.8C29.6 12.8 27.2 11.5 24.5 11.5C19.8 11.5 16 15.3 16 20C16 24.7 19.8 28.5 24.5 28.5C27.2 28.5 29.6 27.2 31 25.2",
+						stroke: isLight ? "#1c1917" : "#edeae3",
+						strokeWidth: "2.4",
+						strokeLinecap: "round",
+						strokeOpacity: "0.9"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("circle", {
+						cx: "20",
+						cy: "9.5",
+						r: "1.8",
+						fill: "#ff7b7b",
+						filter: "url(#subtleGlow)"
+					})
+				]
+			})
+		}), showText && /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+			className: "flex flex-col",
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: cn("font-display font-medium tracking-tight leading-none transition-colors duration-150", textSizes[size], isLight ? "text-paper-ink" : "text-fg group-hover:text-white"),
+				children: "Mudasir Chandio"
+			}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", {
+				className: "mt-0.5 font-mono text-[9px] uppercase tracking-[0.18em] text-primary/80 leading-none",
+				children: "Systems & Studio"
+			})]
+		})]
+	});
+}
 function Footer() {
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("footer", {
 		className: "border-t border-line bg-bg pb-10",
 		children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 			className: "mx-auto flex w-full max-w-[1400px] flex-col gap-10 px-5 py-14 md:px-10 lg:flex-row lg:items-end lg:justify-between lg:px-16",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-				className: "font-display text-5xl tracking-tight md:text-7xl",
-				children: "Fieldline"
-			}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("p", {
-				className: "mt-3 max-w-sm text-sm text-muted",
-				children: [site.tagline, " An AI agency of FDE engineers and performance marketers."]
+			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, { size: "lg" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
+				className: "mt-4 max-w-sm text-sm text-muted",
+				children: site.tagline
 			})] }), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "flex flex-wrap gap-x-8 gap-y-3 text-sm text-muted",
 				children: [nav.map((item) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
@@ -704,7 +828,7 @@ function Footer() {
 			children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("span", { children: [
 				"© ",
 				(/* @__PURE__ */ new Date()).getFullYear(),
-				" Fieldline"
+				" Mudasir Chandio"
 			] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: site.location })]
 		})]
 	});
@@ -725,7 +849,7 @@ function Hero() {
 	const [Field, setField] = (0, import_react.useState)(null);
 	(0, import_react.useEffect)(() => {
 		let live = true;
-		import("./hero-field-B_eejxPK.mjs").then((m) => {
+		import("./hero-field-BHiJqWhi.mjs").then((m) => {
 			if (live) setField(() => m.HeroField);
 		}).catch(() => {});
 		return () => {
@@ -780,13 +904,13 @@ function Hero() {
 			/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 				className: "relative z-10 mx-auto flex w-full max-w-[1400px] flex-1 flex-col justify-end px-5 pb-10 pt-28 md:px-10 lg:px-16 lg:pb-14",
 				children: [
-					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.p, {
+					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
 						custom: 0,
 						initial: "hidden",
 						animate: "show",
 						variants,
-						className: "font-mono text-[11px] uppercase tracking-[0.18em] text-muted",
-						children: "AI Agency · FDE + Performance"
+						className: "inline-flex items-center gap-2.5 font-mono text-[11px] uppercase tracking-[0.18em] text-muted",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { className: "inline-block size-1.5 rounded-full bg-primary shadow-[0_0_8px_var(--color-primary)] animate-pulse" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("span", { children: "Mudasir Chandio · Fullstack & AI Studio" })]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.h1, {
 						custom: 1,
@@ -809,7 +933,7 @@ function Hero() {
 						animate: "show",
 						variants,
 						className: "mt-6 max-w-xl text-base leading-normal text-muted md:text-lg",
-						children: "Two practices, one standard. Forward-deployed engineers who ship production AI. Performance marketers who treat acquisition as a system."
+						children: "I build scalable web applications and production AI systems from front to back. SaaS platforms, APIs, and tools operators actually use on a Tuesday."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsxs)(motion.div, {
 						custom: 3,
@@ -891,11 +1015,11 @@ function Manifesto() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					ref: fill,
 					className: "mt-8 max-w-5xl font-display text-[clamp(1.85rem,4.2vw,4.1rem)] leading-[1.15] tracking-[-0.03em] text-paper-muted md:bg-[linear-gradient(to_right,var(--color-paper-ink)_50%,var(--color-paper-muted)_50%)] md:bg-[length:200%_100%] md:bg-clip-text md:text-transparent",
-					children: "Most AI programs stall in the gap between a promising demo and a Tuesday morning. Fieldline exists to close it. Our engineers embed with your operators. Our performance marketers rebuild acquisition as an engineered loop. We leave systems — not slides."
+					children: "Most AI programs stall in the gap between a promising demo and a Tuesday morning. I exist to close it. I embed with your operators, ship production systems, and leave tools people actually open — not slides."
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-10 max-w-xl text-sm leading-normal text-paper-muted md:text-base",
-					children: "If the work cannot be handed over, it is not shipped. If the media cannot be measured, it is not spend. That is the whole firm."
+					children: "If the work cannot be handed over, it is not shipped. If the media cannot be measured, it is not spend. That is the whole practice."
 				})
 			]
 		})
@@ -983,7 +1107,7 @@ function Nav() {
 		setHidden(latest > 80 && latest > prev);
 	});
 	return /* @__PURE__ */ (0, import_jsx_runtime.jsxs)(import_jsx_runtime.Fragment, { children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(motion.header, {
-		className: cn("fixed inset-x-0 top-0 z-40 border-b border-transparent", open ? "bg-paper" : "bg-bg/72 backdrop-blur-md"),
+		className: cn("fixed inset-x-0 top-0 z-40 border-b border-transparent transition-colors duration-200", open ? "bg-paper" : "bg-bg/75 backdrop-blur-md border-line/40"),
 		animate: { y: hidden ? "-100%" : "0%" },
 		transition: {
 			duration: .28,
@@ -999,8 +1123,12 @@ function Nav() {
 			children: [
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("a", {
 					href: "#top",
-					className: cn("font-display text-xl tracking-tight", open ? "text-paper-ink" : "text-fg"),
-					children: "Fieldline"
+					"aria-label": "Mudasir Chandio Home",
+					className: "flex items-center gap-2",
+					children: /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Logo, {
+						tone: open ? "light" : "dark",
+						size: "sm"
+					})
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("nav", {
 					className: "hidden items-center gap-8 md:flex",
@@ -1090,11 +1218,11 @@ function Practices() {
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Eyebrow, { children: "02 — Practices" }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 					className: "mt-4 max-w-3xl font-display text-2xl tracking-[-0.03em] text-fg md:text-5xl",
-					children: "Two teams. One field."
+					children: "Two practices. One standard."
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 					className: "mt-4 max-w-2xl text-muted",
-					children: "Hire one practice, or both. The scoreboard is shared either way: production systems that operators use, and media that pays for itself."
+					children: "Hire one practice, or both. The scoreboard is shared either way: production systems that operators use, and growth that pays for itself."
 				})
 			] }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
 				className: "mt-14 grid gap-5 lg:grid-cols-2",
@@ -1250,11 +1378,11 @@ function Team() {
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Eyebrow, { children: "05 — The field team" }),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h2", {
 						className: "mt-4 max-w-3xl font-display text-2xl tracking-[-0.03em] md:text-5xl",
-						children: "Engineers in the room. Marketers on the numbers."
+						children: "Engineers in the room. Operators on the numbers."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
 						className: "mt-4 max-w-2xl text-muted",
-						children: "A small firm on purpose. Principals stay on the engagement — no bait-and-switch from a pitch team to a junior bench."
+						children: "A small practice on purpose. Principals stay on the engagement — no bait-and-switch from a pitch team to a junior bench."
 					})
 				] }),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
@@ -1262,24 +1390,27 @@ function Team() {
 					children: teamFde.map((person, i) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)(Reveal, {
 						delay: i * .07,
 						children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
-							className: "overflow-hidden rounded-2xl bg-bg-elevated p-2 shadow-[var(--shadow-border)]",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
-								src: person.image,
-								alt: person.name,
-								className: "media aspect-[3/4] w-full rounded-xl object-cover"
+							className: "group overflow-hidden rounded-2xl bg-bg-elevated p-2 shadow-[var(--shadow-border)] transition-all duration-200 hover:ring-1 hover:ring-primary/40",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
+								className: "relative overflow-hidden rounded-xl",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)("img", {
+									src: person.image,
+									alt: person.name,
+									className: "media aspect-[3/4] w-full object-cover transition-transform duration-300 group-hover:scale-[1.02]"
+								}), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", { className: "absolute inset-0 bg-gradient-to-t from-bg-elevated/80 via-transparent to-transparent opacity-0 transition-opacity duration-300 group-hover:opacity-100" })]
 							}), /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 								className: "px-3 pt-5 pb-4",
 								children: [
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-										className: "font-display text-2xl tracking-tight",
+										className: "font-display text-2xl tracking-tight text-fg group-hover:text-white transition-colors",
 										children: person.name
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										className: "mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-subtle",
+										className: "mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-primary/80",
 										children: person.role
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-										className: "mt-3 text-sm text-muted",
+										className: "mt-3 text-sm leading-relaxed text-muted",
 										children: person.bio
 									})
 								]
@@ -1289,25 +1420,25 @@ function Team() {
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
 					className: "mt-16",
-					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Eyebrow, { children: "Performance practice" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "mt-6 grid gap-px overflow-hidden rounded-2xl bg-line md:grid-cols-3",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Eyebrow, { children: "Specialist Systems & Growth" }), /* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
+						className: "mt-6 grid gap-px overflow-hidden rounded-2xl bg-line md:grid-cols-2 lg:grid-cols-4",
 						children: teamPerformance.map((person) => /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("article", {
-							className: "bg-bg-elevated p-7 md:p-8",
+							className: "group bg-bg-elevated p-6 md:p-7 transition-colors duration-150 hover:bg-bg-subtle",
 							children: [
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-									className: "flex size-14 items-center justify-center rounded-md bg-paper font-display text-2xl text-paper-ink",
+									className: "flex size-13 items-center justify-center rounded-lg bg-paper font-display text-xl text-paper-ink ring-1 ring-white/10 group-hover:ring-primary/50 group-hover:shadow-[0_0_16px_rgba(255,107,107,0.2)] transition-all duration-200",
 									children: person.initials
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("h3", {
-									className: "mt-6 font-display text-2xl tracking-tight",
+									className: "mt-5 font-display text-2xl tracking-tight text-fg group-hover:text-white transition-colors",
 									children: person.name
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-subtle",
+									className: "mt-1 font-mono text-[11px] uppercase tracking-[0.14em] text-primary/80",
 									children: person.role
 								}),
 								/* @__PURE__ */ (0, import_jsx_runtime.jsx)("p", {
-									className: "mt-3 text-sm text-muted",
+									className: "mt-3 text-sm leading-relaxed text-muted",
 									children: person.bio
 								})
 							]
