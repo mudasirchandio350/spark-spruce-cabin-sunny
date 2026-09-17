@@ -21,8 +21,8 @@ const schema = z.object({
 type FormValues = z.infer<typeof schema>;
 
 const practices = [
-  { id: "fde", label: "Forward Deployed Engineering" },
-  { id: "performance", label: "Performance Marketing" },
+  { id: "fde", label: "Fullstack & AI Engineering" },
+  { id: "performance", label: "Product & Growth Systems" },
   { id: "both", label: "Both practices" },
 ] as const;
 
@@ -40,10 +40,10 @@ export function Contact() {
   });
 
   const onSubmit = (values: FormValues) => {
-    const id = `FL-${Date.now().toString(36).toUpperCase()}`;
+    const id = `MC-${Date.now().toString(36).toUpperCase()}`;
     const payload = { ...values, id, at: new Date().toISOString() };
-    const prev = JSON.parse(localStorage.getItem("fieldline-briefings") ?? "[]") as unknown[];
-    localStorage.setItem("fieldline-briefings", JSON.stringify([payload, ...prev].slice(0, 20)));
+    const prev = JSON.parse(localStorage.getItem("mudasir-briefings") ?? "[]") as unknown[];
+    localStorage.setItem("mudasir-briefings", JSON.stringify([payload, ...prev].slice(0, 20)));
     setRef(id);
     form.reset();
   };
