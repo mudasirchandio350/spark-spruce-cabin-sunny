@@ -2,7 +2,7 @@ export const site = {
   name: "Mudasir Chandio",
   tagline: "Fullstack Web Developer · SaaS Builder · Problem Solver",
   email: "mudasirc350@gmail.com",
-  location: "Old Memon Society, Qasimabad, Hyderabad",
+  location: "Old Memon Society Qasimabad Hyderabad",
 };
 
 export const nav = [
@@ -186,42 +186,48 @@ export const capabilities = {
 export const teamFde = [
   {
     name: "Mudasir Chandio",
-    role: "Founder · Fullstack & AI Engineer",
-    bio: "Builds scalable web applications and production AI systems from front to back. Specializes in SaaS platforms, APIs, and field-ready agents.",
-    image: "/images/portrait-maya.jpg",
+    role: "Founder · Principal Fullstack & AI Systems Architect",
+    bio: "Architects scalable fullstack web applications, SaaS platforms, and production AI agents. Bridges high-throughput infrastructure with intuitive, human-centered interfaces.",
+    image: "/images/portrait-mudasir.jpg",
   },
   {
     name: "Emad Ahmed",
-    role: "Product & Design Lead",
-    bio: "Turns complex workflows into calm interfaces. Owns the product narrative, design systems, and the last mile of usability.",
+    role: "Co-Founder · Product Design & UI/UX Director",
+    bio: "Transforms convoluted operational workflows into calm, tactile design systems. Commands micro-interactions, typographic rhythm, and the final mile of product craft.",
     image: "/images/portrait-julian.jpg",
   },
   {
-    name: "Ayesha Khan",
-    role: "Applied ML & Systems",
-    bio: "Evaluation design and model behavior in production. If it cannot be scored against a real outcome, it does not ship.",
+    name: "Zoya Qureshi",
+    role: "Lead AI Research & Agentic Systems",
+    bio: "Directs evaluation frameworks, contextual memory models, and deterministic tool-calling workflows. If an agent cannot reliably prove its accuracy, it does not deploy.",
     image: "/images/portrait-priya.jpg",
   },
 ] as const;
 
 export const teamPerformance = [
   {
-    name: "Omar Raza",
-    role: "Growth & Media Systems",
-    initials: "OR",
-    bio: "Builds acquisition as an engineered loop. Allergic to last-click stories and moodboard media.",
+    name: "Tariq Farooq",
+    role: "Distributed Systems & Cloud Architect",
+    initials: "TF",
+    bio: "Engineers zero-downtime microservices, event-driven streaming, and fault-tolerant Postgres backends built to survive real load on a Tuesday.",
   },
   {
-    name: "Sara Malik",
-    role: "Measurement & Analytics",
-    initials: "SM",
-    bio: "Mix models, holdouts, and decision rituals. Translates spend into a scoreboard stakeholders trust.",
+    name: "Samir Varma",
+    role: "Growth & Quantitative Systems Lead",
+    initials: "SV",
+    bio: "Builds customer acquisition as an engineered statistical loop. Focuses on incrementality, holdout science, and financial attribution that CFOs endorse.",
   },
   {
-    name: "Hassan Ali",
-    role: "Creative Systems",
-    initials: "HA",
-    bio: "Always-on creative engines with brand gates. Volume without setting the house style on fire.",
+    name: "Ayla Noor",
+    role: "Creative Technologist & 3D Systems",
+    initials: "AN",
+    bio: "Designs WebGL shaders, kinetic physics, and interactive 3D spatial experiences. Fuses real-time rendering with accessible web engineering.",
+  },
+  {
+    name: "Danial Raza",
+    role: "High-Assurance & Platform Security",
+    initials: "DR",
+    bio: "Audits permission boundaries, cryptographic flows, and zero-trust data access. Protects autonomous agent systems in hostile environments.",
   },
 ] as const;
 

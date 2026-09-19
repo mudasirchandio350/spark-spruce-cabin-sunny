@@ -16,7 +16,12 @@
   --color-muted: #9a9b94;
   --color-subtle: #6e6f68;
   --color-line: #2a2b29;
-  --color-accent: #2dd4bf;
+  --color-primary: #ff6b6b;
+  --color-primary-hover: #ff5252;
+  --color-primary-subtle: rgba(255, 107, 107, 0.12);
+  --color-primary-glow: rgba(255, 107, 107, 0.35);
+  --color-primary-fg: #0c0d0c;
+  --color-accent: #ff6b6b;
   --color-accent-fg: #0c0d0c;
   --color-paper: #edeae3;
   --color-paper-ink: #161615;

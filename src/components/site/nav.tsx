@@ -2,6 +2,7 @@ import { AnimatePresence, motion, useMotionValueEvent, useScroll } from "motion/
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
+import { Logo } from "@/components/site/logo";
 import { nav } from "@/lib/content";
 import { cn } from "@/lib/utils";
 
@@ -23,8 +24,8 @@ export function Nav() {
     <>
       <motion.header
         className={cn(
-          "fixed inset-x-0 top-0 z-40 border-b border-transparent",
-          open ? "bg-paper" : "bg-bg/72 backdrop-blur-md",
+          "fixed inset-x-0 top-0 z-40 border-b border-transparent transition-colors duration-200",
+          open ? "bg-paper" : "bg-bg/75 backdrop-blur-md border-line/40",
         )}
         animate={{ y: hidden ? "-100%" : "0%" }}
         transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}
@@ -32,12 +33,10 @@ export function Nav() {
         <div className="mx-auto flex h-16 max-w-[1400px] items-center justify-between px-5 md:h-[4.25rem] md:px-10 lg:px-16">
           <a
             href="#top"
-            className={cn(
-              "font-display text-xl tracking-tight",
-              open ? "text-paper-ink" : "text-fg",
-            )}
+            aria-label="Mudasir Chandio Home"
+            className="flex items-center gap-2"
           >
-            Mudasir Chandio
+            <Logo tone={open ? "light" : "dark"} size="sm" />
           </a>
           <nav className="hidden items-center gap-8 md:flex" aria-label="Primary">
             {nav.map((item) => (
